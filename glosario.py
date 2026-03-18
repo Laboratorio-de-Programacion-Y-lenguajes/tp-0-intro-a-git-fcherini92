@@ -37,18 +37,19 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def definicion_middleware():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "Middleware"  # Reemplazar con el término asignado o elegido
+    definicion = "El middleware es software que actúa como una capa intermedia para conectar y facilitar la comunicación o la gestión de datos entre diferentes aplicaciones, sistemas operativos o redes."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
+    definicion_middleware()
 
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
