@@ -38,10 +38,8 @@ def glosario_inicial():
 
 
 def definicion_middleware():
-    """
-    EJEMPLO: El alumno debe renombrar esta función y completar su término.
-    """
-    termino = "Middleware"  # Reemplazar con el término asignado o elegido
+
+    termino = "Middleware"
     definicion = "El middleware es software que actúa como una capa intermedia para conectar y facilitar la comunicación o la gestión de datos entre diferentes aplicaciones, sistemas operativos o redes."
     print(f"[NUEVO] {termino}: {definicion}")
 
@@ -50,6 +48,3 @@ if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
     definicion_middleware()
-
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
